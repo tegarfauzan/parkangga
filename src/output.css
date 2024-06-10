@@ -554,8 +554,20 @@ video {
   --tw-contain-style:  ;
 }
 
+.static {
+  position: static;
+}
+
 .absolute {
   position: absolute;
+}
+
+.relative {
+  position: relative;
+}
+
+.sticky {
+  position: sticky;
 }
 
 .bottom-\[30px\] {
@@ -570,9 +582,18 @@ video {
   right: 0.75rem;
 }
 
+.right-8 {
+  right: 2rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
+}
+
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .mb-2 {
@@ -769,11 +790,6 @@ video {
 }
 
 .bg-\[\#FFFFFF\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
-}
-
-.bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
