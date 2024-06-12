@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet" />
+    <title>Discover</title>
+  </head>
+  <body class="font-plus-jakarta-sans">
+    <main id="content" class="relative max-w-[640px] h-screen mx-auto flex flex-col overflow-x-hidden">
+      <div class="carImage absolute top-[38px] right-0 w-[177px] h-[126px]"><img src="images/car.png" alt="Car Image" class="object-cover w-full h-full" /></div>
+      <header class="containerHeader flex items-center bg-[#04031F] pl-4 pt-[30px] pb-[54px]">
+        <div class="ProfileAndTitle z-10">
+          <div class="profil flex gap-2 items-center mb-[21px]">
+            <div class="flex justify-center items-center h-[50px] w-[50px] rounded-full"><img src="images/profil-image.png" alt="Profil image" class="w-full h-full object-cover" /></div>
+            <div class="name">
+              <h3 class="font-medium text-sm leading-[17.64px] text-[#878698] mb-[2px]">Howdy</h3>
+              <h2 class="font-semibold text-base leading-[20.16px] text-[#FFFFFF]">Angga Risky</h2>
+            </div>
+          </div>
+          <h1 class="title font-extrabold text-3xl leading-[30px] text-[#FFFFFF]">Get Your<br />Secure Park</h1>
+        </div>
+      </header>
+      <section class="discoverContent bg-[#FBFBFB]">
+        <form action="" method="" class="search h-12 bg-[#FFFFFF] flex items-center justify-between mx-4 -mt-6 rounded-[50px] shadow-customSearch mb-5">
+          <input type="search" name="search-normal" id="search-normal" placeholder="Search by name or city area" class="w-full h-full outline-none pl-5 bg-transparent placeholder:font-normal placeholder:text-base placeholder:leading-[20.16px] placeholder:text-[#9F9FB5]" />
+          <button type="submit" class="bg-transparent border-none pr-5 h-full"><img src="images/search-normal.svg" alt="search item" /></button>
+        </form>
+        <div class="nearbyParkingSpots mb-5">
+          <header class="headerCards flex justify-between items-center mx-4 mb-[16px]">
+            <h2 class="font-extrabold text-base leading-[20.16px] text-[#070625]">Nearby<br />Parking Spots</h2>
+            <a href="#" class="h-[42px] w-[93px] flex justify-center items-center bg-[#FFFFFF] rounded-[50px] font-semibold text-sm leading-[17.64px] text-[#070625]">View All</a>
+          </header>
+          <div class="cards overflow-x-scroll no-scrollbar scrolling-touch flex items-center pl-4 gap-4">
+            <div class="cardNearby1 p-4 bg-[#FFFFFF] rounded-2xl">
+              <div class="image w-[170px] h-[100px] flex justify-center items-center mb-[10px] relative rounded-[14px]">
+                <span class="absolute px-2 py-[6px] bg-[#F93F6C] text-[#FFFFFF] font-extrabold text-[10px] leading-[12.6px] rounded-[50px] top-[10px] left-[10px]">OFF 55%</span>
+                <img src="images/cardNearby1.png" alt="Angga Park Image" class="object-cover w-full h-full rounded-[14px]" />
+              </div>
+              <div>
+                <h3 class="titleCard font-bold text-base leading-[20.16px] text-[#070625] mb-2">Angga Park</h3>
+                <div class="containerCardDescription flex items-center justify-between font-semibold">
+                  <div class="distance flex gap-1 items-center">
+                    <img src="images/routing.svg" alt="Long Street Icon" />
+                    <h2 class="font-semibold text-sm leading-[17.64px] text-[#9F9FB5]">1.3km</h2>
+                  </div>
+                  <div class="price flex gap-1 items-center">
+                    <img src="images/dollar-circle.svg" alt="Money Icon" />
+                    <h2 class="font-semibold text-sm leading-[17.64px] text-[#9F9FB5]">$5/hr</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cardNearby2 p-4 bg-[#FFFFFF] rounded-2xl">
+              <div class="image w-[170px] h-[100px] flex justify-center items-center mb-[10px] relative rounded-[14px]">
+                <span class="absolute px-2 py-[6px] bg-[#3F46F9] text-[#FFFFFF] font-extrabold text-[10px] leading-[12.6px] rounded-[50px] top-[10px] left-[10px]">POPULAR</span>
+                <img src="images/cardNearby2.png" alt="Angga Park Image" class="object-cover rounded-[14px] w-full h-full" />
+              </div>
+              <div>
+                <h3 class="titleCard font-bold text-base leading-[20.16px] text-[#070625] mb-2">Angga Park</h3>
+                <div class="containerCardDescription flex  items-center justify-between font-semibold">
+                  <div class="distance flex gap-1 items-center">
+                    <img src="images/routing.svg" alt="Long Street Icon" />
+                    <h2 class="font-semibold text-sm leading-[17.64px] text-[#9F9FB5]">1.9km</h2>
+                  </div>
+                  <div class="price flex gap-1 items-center">
+                    <img src="images/dollar-circle.svg" alt="Money Icon" />
+                    <h2 class="font-semibold text-sm leading-[17.64px] text-[#9F9FB5]">$5/hr</h2>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="browseCategories mb-5">
+          <header class="headerCategories flex justify-between items-center mx-4 mb-[16px]">
+            <h2 class="font-extrabold text-base leading-[20.16px] text-[#070625]">Browse <br />Categories</h2>
+            <a href="#" class="h-[42px] w-[93px] flex justify-center items-center bg-[#FFFFFF] rounded-[50px] font-semibold text-sm leading-[17.64px] text-[#070625]">View All</a>
+          </header>
+          <div class="containerCategories no-scrollbar flex items-center gap-4 overflow-x-scroll scrolling-touch pl-4">
+            <div class="categories1 gap-2 p-4 rounded-2xl flex flex-col justify-center items-center">
+              <div class="flex justify-center items-center w-[50px] h-[50px] bg-[#3F46F9] rounded-full">
+                <img src="images/parklot.svg" alt="Parklot Svg" />
+              </div>
+              <h3 class="whitespace-nowrap font-bold text-sm leading-[17.64px] text-[#070625]">Park Lot</h3>
+            </div>
+            <div class="categories2 gap-2 p-4 rounded-2xl flex flex-col justify-center items-center">
+              <div class="flex justify-center items-center w-[50px] h-[50px] bg-[#3F46F9] rounded-full">
+                <img src="images/malls.svg" alt="Mall Svg" />
+              </div>
+              <h3 class="whitespace-nowrap font-bold text-sm leading-[17.64px] text-[#070625]">Malls</h3>
+            </div>
+            <div class="categories3 gap-2 p-4 rounded-2xl flex flex-col justify-center items-center">
+              <div class="flex justify-center items-center w-[50px] h-[50px] bg-[#3F46F9] rounded-full">
+                <img src="images/bigpark.svg" alt="Big Park Svg" />
+              </div>
+              <h3 class="whitespace-nowrap font-bold text-sm leading-[17.64px] text-[#070625]">Big Park</h3>
+            </div>
+            <div class="categories4 gap-2 p-4 rounded-2xl flex flex-col justify-center items-center">
+              <div class="flex justify-center items-center w-[50px] h-[50px] bg-[#3F46F9] rounded-full">
+                <img src="images/campus.svg" alt="Campus Svg" />
+              </div>
+              <h3 class="whitespace-nowrap font-bold text-sm leading-[17.64px] text-[#070625]">Campus</h3>
+            </div>
+            <div class="categories5 gap-2 p-4 rounded-2xl flex flex-col justify-center items-center">
+              <div class="flex justify-center items-center w-[50px] h-[50px] bg-[#3F46F9] rounded-full">
+                <img src="images/parklot.svg" alt="Parklot Svg" />
+              </div>
+              <h3 class="whitespace-nowrap font-bold text-sm leading-[17.64px] text-[#070625]">Park Lot</h3>
+            </div>
+          </div>
+        </div>
+        <div class="freshLotsMoreDiscounts mb-[34px]">
+          <header class="headerFreshLots flex justify-between items-center mx-4 mb-[16px]">
+            <h2 class="font-extrabold text-base leading-[20.16px] text-[#070625]">Fresh Lots<br />More Discounts</h2>
+            <a href="#" class="h-[42px] w-[93px] flex justify-center items-center bg-[#FFFFFF] rounded-[50px] font-semibold text-sm leading-[17.64px] text-[#070625]">View All</a>
+          </header>
+          <div class="containerCardFresh">
+            <div class="cardFresh1 flex items-center gap-4 px-4 mx-4 py-[18px] bg-[#FFFFFF] rounded-2xl mb-4">
+              <div class="cardFreshImage w-[100px] h-[76px] rounded-[14px] flex justify-center items-center"><img src="images/cardFresh1.png" alt="Senayan" class="object-cover w-full h-full rounded-[14px]" loading="lazy" /></div>
+              <div class="descripton flex flex-col gap-2">
+                <h3 class="font-bold text-base leading-[20.16px] text-[#070625]">Senayan</h3>
+                <div class="flex items-center gap-[10px] font-semibold">
+                  <div class="flex gap-1 items-center">
+                    <img src="images/routing.svg" alt="Long Street Icon" />
+                    <h2 class="font-semibold text-sm leading-[17.64px] text-[#9F9FB5]">5.3km</h2>
+                  </div>
+                  <div class="flex gap-1 items-center">
+                    <img src="images/dollar-circle.svg" alt="Money Icon" />
+                    <h2 class="font-semibold text-sm leading-[17.64px] text-[#9F9FB5]">$1/hr</h2>
+                  </div>
+                </div>
+                <div class="flex items-center gap-[2px]">
+                  <div class="stars flex items-center">
+                    <svg class="star1" width="18" height="17" viewBox="0 0 18 17" color="#F98D3F" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="currentColor" />
+                    </svg>
+                    <svg class="star2" width="18" height="17" viewBox="0 0 18 17" color="#F98D3F" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="currentColor" />
+                    </svg>
+                    <svg class="star3" width="18" height="17" viewBox="0 0 18 17" color="#F98D3F" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="currentColor" />
+                    </svg>
+                    <svg class="star4" width="18" height="17" viewBox="0 0 18 17" color="#F98D3F" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="currentColor" />
+                    </svg>
+                    <svg class="star5" width="18" height="17" viewBox="0 0 18 17" color="#EDEDF4" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="currentColor" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="peopleStar font-semibold text-sm leading-[17.64px] text-[#070625]">(14,593)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cardFresh2 flex items-center gap-4 px-4 mx-4 py-[18px] bg-[#FFFFFF] rounded-2xl mb-4">
+              <div class="cardFreshImage w-[100px] h-[76px] rounded-[14px] flex justify-center items-center"><img src="images/cardFresh2.png" alt="Kota Baru" class="object-cover w-full h-full rounded-[14px]" loading="lazy" /></div>
+              <div class="description flex flex-col gap-2">
+                <h3 class="font-bold text-base leading-[20.16px] text-[#070625]">Kota Baru</h3>
+                <div class="flex items-center gap-[10px] font-semibold">
+                  <div class="flex gap-1 items-center">
+                    <img src="images/routing.svg" alt="Long Street Icon" />
+                    <h2 class="font-semibold text-sm leading-[17.64px] text-[#9F9FB5]">7.4km</h2>
+                  </div>
+                  <div class="flex gap-1 items-center">
+                    <img src="images/dollar-circle.svg" alt="Money Icon" />
+                    <h2 class="font-semibold text-sm leading-[17.64px] text-[#9F9FB5]">$1/hr</h2>
+                  </div>
+                </div>
+                <div class="flex items-center gap-[2px]">
+                  <div class="stars flex items-center">
+                    <svg class="star1" width="18" height="17" viewBox="0 0 18 17" color="#F98D3F" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="currentColor" />
+                    </svg>
+                    <svg class="star2" width="18" height="17" viewBox="0 0 18 17" color="#F98D3F" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="currentColor" />
+                    </svg>
+                    <svg class="star3" width="18" height="17" viewBox="0 0 18 17" color="#F98D3F" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="currentColor" />
+                    </svg>
+                    <svg class="star4" width="18" height="17" viewBox="0 0 18 17" color="#F98D3F" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="currentColor" />
+                    </svg>
+                    <svg class="star5" width="18" height="17" viewBox="0 0 18 17" color="#EDEDF4" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="currentColor" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="peopleStar font-semibold text-sm leading-[17.64px] text-[#070625]">(4,355)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="cardFresh3 flex items-center gap-4 px-4 mx-4 py-[18px] bg-[#FFFFFF] rounded-2xl">
+              <div class="cardFreshImage w-[100px] h-[76px] rounded-[14px] flex justify-center items-center"><img src="images/cardFresh3.png" alt="Senayan" class="object-cover w-full h-full rounded-[14px]" loading="lazy" /></div>
+              <div class="description flex flex-col gap-2">
+                <h3 class="font-bold text-base leading-[20.16px] text-[#070625]">Senayan</h3>
+                <div class="flex items-center gap-[10px] font-semibold">
+                  <div class="flex gap-1 items-center">
+                    <img src="images/routing.svg" alt="Long Street Icon" />
+                    <h2 class="font-semibold text-sm leading-[17.64px] text-[#9F9FB5]">5.3km</h2>
+                  </div>
+                  <div class="flex gap-1 items-center">
+                    <img src="images/dollar-circle.svg" alt="Money Icon" />
+                    <h2 class="font-semibold text-sm leading-[17.64px] text-[#9F9FB5]">$1/hr</h2>
+                  </div>
+                </div>
+                <div class="flex items-center gap-[2px]">
+                  <div class="stars flex items-center">
+                    <svg class="star1" width="18" height="17" viewBox="0 0 18 17" color="#F98D3F" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="currentColor" />
+                    </svg>
+                    <svg class="star2" width="18" height="17" viewBox="0 0 18 17" color="#F98D3F" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="currentColor" />
+                    </svg>
+                    <svg class="star3" width="18" height="17" viewBox="0 0 18 17" color="#F98D3F" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="currentColor" />
+                    </svg>
+                    <svg class="star4" width="18" height="17" viewBox="0 0 18 17" color="#F98D3F" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="currentColor" />
+                    </svg>
+                    <svg class="star5" width="18" height="17" viewBox="0 0 18 17" color="#EDEDF4" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M9 0L11.0206 6.21885H17.5595L12.2694 10.0623L14.2901 16.2812L9 12.4377L3.70993 16.2812L5.73056 10.0623L0.440492 6.21885H6.97937L9 0Z" fill="currentColor" />
+                    </svg>
+                  </div>
+                  <div>
+                    <p class="peopleStar font-semibold text-sm leading-[17.64px] text-[#070625]">(14,593)</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navigation h-[91px] bg-[#FFFFFF] sticky left-0 right-0 bottom-0 pt-[14px]">
+          <nav class="flex justify-between items-center px-6">
+            <a href="#" class="discoverLink">
+              <div class="flex flex-col items-center w-[86.25px] gap-2">
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M22.125 7.81003V11.25H16.875V2.03003C20.175 2.23003 22.125 4.36003 22.125 7.81003Z" fill="#3F46F9" />
+                  <path d="M22.125 12.75V16.19C22.125 19.64 20.175 21.77 16.875 21.97V12.75H22.125Z" fill="#3F46F9" />
+                  <path d="M7.375 12.75V21.97C4.075 21.77 2.125 19.64 2.125 16.19V12.75H7.375Z" fill="#3F46F9" />
+                  <path d="M7.375 2.03003V11.25H2.125V7.81003C2.125 4.36003 4.075 2.23003 7.375 2.03003Z" fill="#3F46F9" />
+                  <path d="M15.375 2H8.875V11.25H15.375V2Z" fill="#3F46F9" />
+                  <path d="M15.375 12.75H8.875V22H15.375V12.75Z" fill="#3F46F9" />
+                </svg>
+                <p class="font-bold text-xs leading-[15.12px] text-[#3F46F9]">Discover</p>
+              </div>
+            </a>
+            <a href="#" class="ordersLink">
+              <div class="flex flex-col items-center w-[86.25px] gap-2">
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.745 8.87988H17.995" stroke="#9F9FB5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M6.755 8.87988L7.505 9.62988L9.755 7.37988" stroke="#9F9FB5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M12.745 15.8799H17.995" stroke="#9F9FB5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M6.755 15.8799L7.505 16.6299L9.755 14.3799" stroke="#9F9FB5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M9.375 22H15.375C20.375 22 22.375 20 22.375 15V9C22.375 4 20.375 2 15.375 2H9.375C4.375 2 2.375 4 2.375 9V15C2.375 20 4.375 22 9.375 22Z" stroke="#9F9FB5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+                <p class="font-semibold text-xs leading-[15.12px] text-[#9F9FB5]">Orders</p>
+              </div>
+            </a>
+            <a href="#" class="walletLink">
+              <div class="flex flex-col items-center w-[86.25px] gap-2">
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.285 2.51814L13.255 2.58814L10.355 9.31814H7.50496C6.82496 9.31814 6.17496 9.45814 5.58496 9.70814L7.33496 5.52814L7.37496 5.42814L7.44496 5.26814C7.46496 5.20814 7.48496 5.14814 7.51496 5.09814C8.82496 2.06814 10.305 1.37814 13.285 2.51814Z" stroke="#9F9FB5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M18.675 9.51819C18.225 9.37819 17.745 9.31819 17.265 9.31819H10.355L13.255 2.58819L13.285 2.51819C13.435 2.56819 13.575 2.63819 13.725 2.69819L15.935 3.62819C17.165 4.13819 18.025 4.66819 18.545 5.30819C18.645 5.42819 18.725 5.53819 18.795 5.66819C18.885 5.80819 18.955 5.94819 18.995 6.09819C19.035 6.18819 19.065 6.27819 19.085 6.35819C19.355 7.19819 19.195 8.22819 18.675 9.51819Z" stroke="#9F9FB5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M22.1467 14.1984V16.1484C22.1467 16.3484 22.1367 16.5484 22.1267 16.7484C21.9367 20.2384 19.9867 21.9984 16.2867 21.9984H8.48672C8.24672 21.9984 8.00672 21.9784 7.77672 21.9484C4.59672 21.7384 2.89672 20.0384 2.68672 16.8584C2.65672 16.6284 2.63672 16.3884 2.63672 16.1484V14.1984C2.63672 12.1884 3.85672 10.4584 5.59672 9.70836C6.19672 9.45836 6.83672 9.31836 7.51672 9.31836H17.2767C17.7667 9.31836 18.2467 9.38836 18.6867 9.51836C20.6767 10.1284 22.1467 11.9884 22.1467 14.1984Z" stroke="#9F9FB5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M7.335 5.52808L5.585 9.70808C3.845 10.4581 2.625 12.1881 2.625 14.1981V11.2681C2.625 8.42808 4.645 6.05808 7.335 5.52808Z" stroke="#9F9FB5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                  <path d="M22.1436 11.2677V14.1977C22.1436 11.9977 20.6836 10.1277 18.6836 9.52766C19.2036 8.22766 19.3536 7.20766 19.1036 6.35766C19.0836 6.26766 19.0536 6.17766 19.0136 6.09766C20.8736 7.05766 22.1436 9.02766 22.1436 11.2677Z" stroke="#9F9FB5" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+
+                <p class="font-semibold text-xs leading-[15.12px] text-[#9F9FB5]">Wallet</p>
+              </div>
+            </a>
+            <a href="#" class="settingLink">
+              <div class="flex flex-col items-center w-[86.25px] gap-2">
+                <svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M12.875 15C14.5319 15 15.875 13.6569 15.875 12C15.875 10.3431 14.5319 9 12.875 9C11.2181 9 9.875 10.3431 9.875 12C9.875 13.6569 11.2181 15 12.875 15Z" stroke="#9F9FB5" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                  <path
+                    d="M2.875 12.8801V11.1201C2.875 10.0801 3.725 9.22006 4.775 9.22006C6.585 9.22006 7.325 7.94006 6.415 6.37006C5.895 5.47006 6.205 4.30006 7.115 3.78006L8.845 2.79006C9.635 2.32006 10.655 2.60006 11.125 3.39006L11.235 3.58006C12.135 5.15006 13.615 5.15006 14.525 3.58006L14.635 3.39006C15.105 2.60006 16.125 2.32006 16.915 2.79006L18.645 3.78006C19.555 4.30006 19.865 5.47006 19.345 6.37006C18.435 7.94006 19.175 9.22006 20.985 9.22006C22.025 9.22006 22.885 10.0701 22.885 11.1201V12.8801C22.885 13.9201 22.035 14.7801 20.985 14.7801C19.175 14.7801 18.435 16.0601 19.345 17.6301C19.865 18.5401 19.555 19.7001 18.645 20.2201L16.915 21.2101C16.125 21.6801 15.105 21.4001 14.635 20.6101L14.525 20.4201C13.625 18.8501 12.145 18.8501 11.235 20.4201L11.125 20.6101C10.655 21.4001 9.635 21.6801 8.845 21.2101L7.115 20.2201C6.205 19.7001 5.895 18.5301 6.415 17.6301C7.325 16.0601 6.585 14.7801 4.775 14.7801C3.725 14.7801 2.875 13.9201 2.875 12.8801Z"
+                    stroke="#9F9FB5"
+                    stroke-width="2"
+                    stroke-miterlimit="10"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <p class="font-semibold text-xs leading-[15.12px] text-[#9F9FB5]">Setting</p>
+              </div>
+            </a>
+          </nav>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
